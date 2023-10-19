@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2944c24-dadc-4603-8466-79c119c4ba8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/dao/EventDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/dao/LocationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/data/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/data/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/data/TypeEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Partecipation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/utils/JpaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/massimomauro/ApplicationTest.java" afterDir="false" />
+    <list default="true" id="d2944c24-dadc-4603-8466-79c119c4ba8c" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Location.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +52,19 @@
       <option name="presentableId" value="Default" />
       <updated>1697721629722</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1697725548518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697725548518</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

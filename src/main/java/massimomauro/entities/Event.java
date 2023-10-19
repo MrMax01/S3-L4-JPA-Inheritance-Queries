@@ -19,7 +19,8 @@ public class Event {
     private TypeEvent typeEvent;
     private int maxNumberPartecipants;
 
-    @OneToOne(mappedBy = "event")
+    @OneToOne
+    @JoinColumn(name="location_id")
     private Location location;
     @OneToMany(mappedBy = "event")
     @OrderBy("title ASC")
@@ -28,12 +29,13 @@ public class Event {
 
     public Event (){};
 
-    public Event(String title, LocalDate dataEvent, String description, TypeEvent typeEvent, int maxNumberPartecipants) {
+    public Event(String title, LocalDate dataEvent, String description, TypeEvent typeEvent, int maxNumberPartecipants, Location location) {
         this.title = title;
         this.dataEvent = dataEvent;
         this.description = description;
         this.typeEvent = typeEvent;
         this.maxNumberPartecipants = maxNumberPartecipants;
+        this.location= location;
     }
 
     public long getId() {

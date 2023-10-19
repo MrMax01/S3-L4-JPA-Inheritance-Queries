@@ -26,14 +26,14 @@ public class Application {
         PersonDAO pd = new PersonDAO(em);
         LocationDAO ld = new LocationDAO(em);
 
-        Event ev1 = new Event("ev", today, "ciao", PRIVATO, 50  );
         Person p1= new Person("ran", "dom", "random@gmail.com", today, Gender.M);
-        Location l1 = new Location("Salmo", "Torino", ev1);
+        Location l1 = new Location("Salmo", "Torino");
+        Event ev1 = new Event("ev", today, "ciao", PRIVATO, 50, l1);
 
         ld.save(l1);
         pd.save(p1);
         sd.save(ev1);
-        sd.delete(14);
+        //sd.delete(14);
         //System.out.println(sd.findById(1));
 
         System.out.println("Hello World!");

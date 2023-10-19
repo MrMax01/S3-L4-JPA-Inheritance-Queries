@@ -11,16 +11,16 @@ public class Location {
 
     private String name;
     private String city;
-    @OneToOne
-    @JoinColumn(name="event_id")
+    @OneToOne(mappedBy = "location")
     private Event event;
     public Location(){};
 
-    public Location(String name, String city, Event event) {
+    public Location(String name, String city) {
         this.name = name;
         this.city = city;
-        this.event = event;
     }
+
+
 
     public long getId() {
         return id;
