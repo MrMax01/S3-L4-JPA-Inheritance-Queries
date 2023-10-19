@@ -3,10 +3,13 @@ package massimomauro;
 
 import massimomauro.dao.EventDAO;
 import massimomauro.dao.LocationDAO;
+import massimomauro.dao.PartecipationDAO;
 import massimomauro.dao.PersonDAO;
 import massimomauro.data.Gender;
+import massimomauro.data.Status;
 import massimomauro.entities.Event;
 import massimomauro.entities.Location;
+import massimomauro.entities.Partecipation;
 import massimomauro.entities.Person;
 
 import javax.persistence.EntityManager;
@@ -25,14 +28,18 @@ public class Application {
         EventDAO sd = new EventDAO(em);
         PersonDAO pd = new PersonDAO(em);
         LocationDAO ld = new LocationDAO(em);
+        PartecipationDAO pard = new PartecipationDAO(em);
 
         Person p1= new Person("ran", "dom", "random@gmail.com", today, Gender.M);
         Location l1 = new Location("Salmo", "Torino");
         Event ev1 = new Event("ev", today, "ciao", PRIVATO, 50, l1);
+        Partecipation par1 = new Partecipation(p1, ev1, Status.DA_CONFERMARE);
 
-        ld.save(l1);
-        pd.save(p1);
-        sd.save(ev1);
+        //ld.save(l1);
+        //pd.save(p1);
+        //sd.save(ev1);
+        //pard.save(par1);
+
         //sd.delete(14);
         //System.out.println(sd.findById(1));
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2944c24-dadc-4603-8466-79c119c4ba8c" name="Changes" comment="first commit">
+    <list default="true" id="d2944c24-dadc-4603-8466-79c119c4ba8c" name="Changes" comment="fix location end event">
+      <change afterPath="$PROJECT_DIR$/src/main/java/massimomauro/dao/PartecipationDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/massimomauro/entities/Location.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +59,20 @@
       <option name="project" value="LOCAL" />
       <updated>1697725548518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix location end event">
+      <option name="closed" value="true" />
+      <created>1697726072150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697726072150</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="fix location end event" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix location end event" />
   </component>
 </project>
